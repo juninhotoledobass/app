@@ -1,0 +1,119 @@
+<? Xml version = "1.0" encoding = "UTF-8"?>
+
+<! - Referência config.xml: https://build.phonegap.com/docs/config-xml ->
+<Widgets  xmlns =  "http://www.w3.org/ns/widgets"
+        xmlns: gap =  "http://phonegap.com/ns/1.0"
+        id =  "com.phonegap.helloworld"
+        version =  "1.0.0" >
+
+    <Nome> Olá Mundo </ name>
+
+    <Description>
+        Aplicação de exemplo Olá Mundo, que responde ao evento deviceready.
+    </ Description>
+
+    <Autor  href = "http://phonegap.com"  email = "support@phonegap.com" >
+        PhoneGap Equipe
+    </ Autor>
+
+    <! -
+        Se você não quer que nenhuma permissão para ser adicionado ao seu aplicativo, adicione o
+        seguinte tag no seu config.xml; você ainda terá a INTERNET
+        permissão em seu aplicativo, o que requer PhoneGap.
+    ->
+    <Preference  name = "permissões"                 value = "none" />
+
+    <! - Personalize o seu aplicativo e plataforma com o elemento de preferência. ->
+    <Preference  name = "phonegap-versão"            value = "3.5.0"  />           <- tudo: versão atual do PhoneGap ->
+    <Preference  name = "orientação"                 value = "default"  />         <- todos: meio padrão paisagem e retrato estão habilitados ->
+    <Preference  name = "dispositivo-alvo"               value = "universal"  />       <- tudo: valores possíveis telefone, tablet ou universal ->
+    <Preference  name = "fullscreen"                  value = "true"  />            <- todos: oculta a barra de status no topo da tela ->
+    <Preference  name = "webviewbounce"               valor = "true"  />            <- ios: controle se a tela 'salta' quando deslocado para além do topo ->
+    <Preference  name = "prerendered-icon"            value = "true"  />            <- ios: se o ícone é prerendered, iOS não vai aplicar é gloss para o ícone do aplicativo na tela inicial do usuário ->
+    <Preference  name = "stay-in-webview"             value = "false"  />           <- ios: links externos deverá abrir no navegador padrão, 'true' usaria o webview o aplicativo vive em ->
+    <Preference  name = "ios-statusbarstyle"          value = "preto-opaco"  />    <- ios: Preto-translúcido aparecerão preto porque o webview PhoneGap não ir abaixo da barra de status ->
+    <Preference  name = "detectar-tipos de dados"           value = "true"  />            <- IOS:! controla se os tipos de dados (. tais como telefone não e datas) são automaticamente convertidas em links pelo sistema ->
+    <Preference  name = "exit-on-suspender"             value = "false"  />           <- ios: se definido como verdadeiro, aplicativo irá terminar quando o botão for pressionado em casa ->
+    <Preference  name = "show-splash-screen-girador"  value = "true"  />            <- ios: se for definido como false, o spinner não irá aparecer na tela inicial durante a aplicação de carga ->
+    <Preference  name = "tela auto-ocultar-splash"     value = "true"  />            <- ios: se for definido como false, a tela inicial deve ser escondido usando uma API JavaScript ->
+    <Preference  name = "disable-cursor"              value = "false"  />           <- blackberry: impede que um mouse no ícone / cursor seja exibido no aplicativo ->
+    <Preference  name = "android-minSdkVersion"       value = "7"  />               <- android: versão SDK MIN suportado no dispositivo de destino. Versão MAX está em branco por padrão. ->
+    <Preference  name = "android-installLocation"     value = "auto"  />            <- android: aplicativo local de instalação. 'Auto' vai escolher. 'InternalOnly "é a memória do dispositivo. 'PreferExternal' é SDCard. ->
+
+    <! - Plugins ->
+
+    <! - Plugins core ->
+    <Lacuna: plug-in  name = "org.apache.cordova.battery-status"  />
+    <Lacuna: plug-in  name = "org.apache.cordova.camera"  />
+    <Lacuna: plug-in  name = "captura-org.apache.cordova.media"  />
+    <Lacuna: plug-in  name = "org.apache.cordova.console"  />
+    <Lacuna: plug-in  name = "org.apache.cordova.contacts"  />
+    <Lacuna: plug-in  name = "org.apache.cordova.device"  />
+    <Lacuna: plug-in  name = "org.apache.cordova.device-motion"  />
+    <Lacuna: plug-in  name = "org.apache.cordova.device orientação"  />
+    <Lacuna: plug-in  name = "org.apache.cordova.dialogs"  />
+    <Lacuna: plug-in  name = "org.apache.cordova.file"  />
+    <Lacuna: plug-in  name = "org.apache.cordova.file de transferência"  />
+    <Lacuna: plug-in  name = "org.apache.cordova.geolocation"  />
+    <Lacuna: plug-in  name = "org.apache.cordova.globalization"  />
+    <Lacuna: plug-in  name = "org.apache.cordova.inappbrowser"  />
+    <Lacuna: plug-in  name = "org.apache.cordova.media"  />
+    <Lacuna: plug-in  name = "org.apache.cordova.network-informação"  />
+    <Lacuna: plug-in  name = "org.apache.cordova.splashscreen"  />
+    <Lacuna: plug-in  name = "org.apache.cordova.vibration"  />
+
+    <! - Plugins de terceiros ->
+    <! - Uma lista de plugins disponíveis estão disponíveis em https://build.phonegap.com/plugins ->
+    <! -
+        <Lacuna: nome do plugin = "com.phonegap.plugins.barcodescanner" />
+    ->
+
+    <! - Definir ícone do aplicativo para cada plataforma. ->
+    <Ícone  src = "icon.png"  />
+    <Ícone  src = "res / icon / android / icon-36-ldpi.png"    gap: plataforma = "android"     gap: qualificador = "LDPI"  />
+    <Ícone  src = "res / icon / android / icon-48-mdpi.png"    gap: plataforma = "android"     gap: qualificador = "MDPI"  />
+    <Ícone  src = "res / icon / android / icon-72-hdpi.png"    gap: plataforma = "android"     gap: qualificador = "hdpi"  />
+    <Ícone  src = "res / icon / android / icon-96-xhdpi.png"   gap: plataforma = "android"     gap: qualificador = "xhdpi"  />
+    <Ícone  src = "res / ícone / blackberry / icon-80.png"      gap: plataforma = "blackberry"  />
+    <Ícone  src = "res / ícone / blackberry / icon-80.png"      gap: plataforma = "blackberry"  gap: state = "pairar" />
+    <Ícone  src = "res / icon / ios / icon-57.png"             gap: plataforma = "ios"         width = "57"  height = "57"  />
+    <Ícone  src = "res / icon / ios / icon-72.png"             gap: plataforma = "ios"         width = "72"  height = "72"  />
+    <Ícone  src = "res / icon / ios /-icon 57-2x.png"          gap: plataforma = "ios"         width = "114"  height = "114"  />
+    <Ícone  src = "res / icon / ios /-icon 72-2x.png"          gap: plataforma = "ios"         width = "144"  height = "144"  />
+    <Ícone  src = "res / icon / WebOS / icon-64.png"           gap: plataforma = "WebOS"  />
+    <Ícone  src = "res / ícone / windows-phone / icon-48.png"   gap: plataforma = "WinPhone"  />
+    <Ícone  src = "res / ícone / windows-phone / icon-173.png"  gap: plataforma = "WinPhone"    gap: role = "fundo"  />
+
+    <! - Definir tela de abertura aplicativo para cada plataforma. ->
+    <gap:splash  src= "res/screen/android/screen-ldpi-portrait.png"        gap:platform= "android"  gap:qualifier= "port-ldpi"  />
+    <gap:splash  src= "res/screen/android/screen-mdpi-portrait.png"        gap:platform= "android"  gap:qualifier= "port-mdpi"  />
+    <gap:splash  src= "res/screen/android/screen-hdpi-portrait.png"        gap:platform= "android"  gap:qualifier= "port-hdpi"  />
+    <gap:splash  src= "res/screen/android/screen-xhdpi-portrait.png"       gap:platform= "android"  gap:qualifier= "port-xhdpi"  />
+    <Lacuna: respingo  src = "res / tela / blackberry / screen-225.png"               gap: plataforma = "blackberry"  />
+    <gap:splash  src= "res/screen/ios/screen-iphone-portrait.png"          gap:platform= "ios"      width= "320"  height= "480"  />
+    <gap:splash  src= "res/screen/ios/screen-iphone-portrait-2x.png"       gap:platform= "ios"      width= "640"  height= "960"  />
+    <gap:splash  src= "res/screen/ios/screen-iphone-portrait-568h-2x.png"  gap:platform= "ios"      width= "640"  height= "1136"  />
+    <Lacuna: respingo  src = "res / tela / ios / tela-ipad-portrait.png"            gap: plataforma = "ios"      width = "768"  height = "1024"  />
+    <gap:splash  src= "res/screen/ios/screen-ipad-landscape.png"           gap:platform= "ios"      width= "1024"  height= "768"  />
+    <Lacuna: respingo  src = "res / tela / windows-phone / screen-portrait.jpg"       gap: plataforma = "WinPhone"  />
+
+    <Lacuna: config-file  = plataforma "ios"  parent = "CFBundleShortVersionString" >
+    <String> 100 </ string>
+    </ Lacuna: config-file>
+
+    <! -
+        Definir o acesso a domínios externos.
+
+        <Access /> - uma tag acesso em branco nega o acesso a todos os recursos externos.
+        <Origem access = "*" /> - uma tag acesso curinga permite acesso a todos os recursos externos.
+
+        Caso contrário, você pode especificar domínios específicos:
+    ->
+    <Acesso  origem = "*" />
+    <! -
+        <Origem access = "http://phonegap.com" /> - permitir que todos os pedidos de seguro para http://phonegap.com/
+        <Origem de acesso = "http://phonegap.com" subdomínios = "true" /> - Igual ao anterior, mas incluindo subdomínios, como http://build.phonegap.com/
+        <Origem access = "http://phonegap.com" browserOnly = "true" /> - só permite http://phonegap.com a ser aberta pelo navegador da criança.
+    ->
+
+</ Widget>

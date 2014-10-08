@@ -1,0 +1,52 @@
+<manifest alg="2" build="375" opt="true" iceEnabled="true" exportTarget="other" resolutions="1x" timestamp="1411007552893">
+  <folder name="css">
+    <file name="site_global.css" crc="426517801"/>
+    <file name="master_a-mestre.css" crc="175901833" ref="index:cartão-de-vi:folder:panfletos:tablóidf:cracha:bolacha-cho"/>
+    <file name="index.css" crc="4103001463" ref="index"/>
+    <file name="cart_o-de-vi.css" crc="3956112986" ref="cartão-de-vi"/>
+    <file name="folder.css" crc="3882680299" ref="folder"/>
+    <file name="panfletos.css" crc="3800482119" ref="panfletos"/>
+    <file name="tabl_idf.css" crc="112248628" ref="tablóidf"/>
+    <file name="cracha.css" crc="39964753" ref="cracha"/>
+    <file name="bolacha-cho.css" crc="3945183156" ref="bolacha-cho"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="4146222537" ref="index:bolacha-cho:cracha:panfletos:cartão-de-vi:tablóidf:folder"/>
+    <file name="museutils.js" crc="135030331" ref="index:bolacha-cho:cracha:panfletos:cartão-de-vi:tablóidf:folder"/>
+    <file name="jquery.watch.js" crc="377079819" ref="index:bolacha-cho:cracha:panfletos:cartão-de-vi:tablóidf:folder"/>
+    <file name="webpro.js" crc="221070874" ref="index"/>
+    <file name="form_check.php" crc="4099280525" ref="index"/>
+    <file name="form_throttle.php" crc="354368968" ref="index"/>
+    <file name="form_process.php" crc="110498777" ref="index"/>
+    <file name="form-u575.php" crc="4285697236" ref="index"/>
+    <file name="pie.js" crc="3827607177" ref="bolacha-cho:cracha:panfletos:cartão-de-vi:tablóidf:folder"/>
+  </folder>
+  <folder name="images">
+    <file name="2.jpg" crc="245691155" ref="index:bolacha-cho:cracha:panfletos:cartão-de-vi:tablóidf:folder"/>
+    <file name="1.jpg" crc="317271003" ref="index:bolacha-cho:cracha:panfletos:cartão-de-vi:tablóidf:folder"/>
+    <file name="u618-4.png" crc="3882518828" ref="index"/>
+    <file name="u599-17.png" crc="4199693752" ref="index"/>
+    <file name="u599-17-r.png" crc="194426852" ref="index"/>
+    <file name="u599-17-m.png" crc="99518348" ref="index"/>
+    <file name="u599-17-fs.png" crc="237054224" ref="index"/>
+    <file name="u620-4.png" crc="3882518828" ref="index"/>
+    <file name="pasted image 170x170.jpg" crc="44003729" ref="bolacha-cho"/>
+    <file name="pasted image 550x482.jpg" crc="3882961570" ref="cracha"/>
+    <file name="pasted image 100x100.jpg" crc="415695341" ref="panfletos"/>
+    <file name="pasted image 100x1002.jpg" crc="285327023" ref="panfletos"/>
+    <file name="pasted image 100x1003.jpg" crc="41777419" ref="panfletos"/>
+    <file name="pasted image 100x1004.jpg" crc="4147688803" ref="cartão-de-vi"/>
+    <file name="pasted image 100x1005.jpg" crc="82881028" ref="cartão-de-vi"/>
+    <file name="pasted image 100x1006.jpg" crc="3855141961" ref="cartão-de-vi"/>
+    <file name="pasted image 100x1007.jpg" crc="4119302317" ref="tablóidf:folder"/>
+    <file name="pasted image 100x1008.jpg" crc="4169414048" ref="tablóidf"/>
+    <file name="pasted image 138x138.jpg" crc="466380107" ref="folder"/>
+  </folder>
+  <file name="index.html" crc="4070484561" mt="1411007489371" redirect="true"/>
+  <file name="bolacha-cho.html" crc="4056310119" mt="1411002225101" redirect="true"/>
+  <file name="cracha.html" crc="91859417" mt="1411002932763" redirect="true"/>
+  <file name="panfletos.html" crc="489801540" mt="1411003963672" redirect="true"/>
+  <file name="cartão-de-vi.html" crc="4148918557" mt="1411006670743" redirect="true"/>
+  <file name="tablóidf.html" crc="4071486106" mt="1411006423802" redirect="true"/>
+  <file name="folder.html" crc="201161028" mt="1411007118802" redirect="true"/>
+</manifest>
